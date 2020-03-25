@@ -1,5 +1,9 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+.logo {
+    margin: 0;
 }
 
 h1,
@@ -17,16 +21,20 @@ h6{
 h1 {
     line-height: 1.5em;
     font-size: 40px;
+    margin-top: 0;
+    margin-right: 500px;
 
 }
 
-.proyect-details {
+ol {
+    margin-bottom: 0;
+}
+
+.project-description{
     width: 500px;
+
 }
 
-.project-imageContainer {
-    width: 500px;
-}
 
 .hero {
     height: 300px;
@@ -34,8 +42,9 @@ h1 {
     background-size: 500px;
     background-repeat: no-repeat;
     background-position: right;
-    background-color: #1b2127;
+    background-color: #1D252C;
     color: white;
+
 }
 
 .hero strong{
@@ -43,11 +52,38 @@ h1 {
 }
 
 .header {
-    background-color: #1b2127;
+    background-color: #1D252C;
     color: white;
 }
 
 .header div nav ol li a {
     color: white;
     text-decoration: none;
+}
+
+.portfolio {
+    margin-top: 10px;
+    border: 1px gray solid;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+h2 {
+    margin: 0;
+}
+
+.proyecto{
+    display: flex;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    border: black 1px solid;
 }
