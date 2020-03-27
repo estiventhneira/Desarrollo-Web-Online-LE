@@ -13,14 +13,10 @@
 
 </head>
 <body>
-    <div class="flexbox"> 
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-    </div>
+    
     <header class="header">
-        <div>
+        <div class="wrapper">
+        <div class="divisor-header">
             <figure class="logo">
                 <img src="imagenes/logo.png" alt="Logo de Estiventh Neira">
             </figure>
@@ -32,7 +28,7 @@
                 <li>
                     <a href="#Experiencia">Eventos</a>
                 </li>
-                <li>
+                <li class="contacto">
                     <a href="#Contacto">Contacto</a>
                 </li>
             </ol>
@@ -40,56 +36,118 @@
     </div>
     </header>
     <section class="hero">
+        <div class="wrapper">
         <h1>Hola soy <strong>Estiventh Neira,</strong>  <br> <strong>Frontend Developer</strong> <br> Con pasión por el <strong>Marketing</strong>  </h1>
-        <!-- img alt="hero Estiventh Neira" src="imagenes/hero.jpg" width="500px" --> 
+         <img class="hero-img" alt="hero Estiventh Neira" src="imagenes/hero.jpg" width="500px">
+    </div>
     </section>
-    <section id="Portafolio" class="portfolio">
-        <h2>Portafolio de proyectos destacados</h2>
+    <div class="wrapper">
+    <h2> <strong>Portafolio de proyectos destacados</strong> </h2>
+    <section id="Portafolio" class="portfolio">     
         <article class="proyecto">
             <div class="proyect-details">
             <h3 class="project-title">Platzi videos</h3>
             <h6 class="project-course">React Native / React</h6>
             <p class="project-date"><small><strong>Fecha:</strong>  01/07/2019</small></p>
             <p class="project-url"><small><strong>Puedes verlo en:</strong>www.estiventhneira.com</small></p>
-            <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In venenatis ante sem, in egestas neque mattis in. Integer eu augue nisi. Nulla facilisi. Cras sit amet leo nec purus feugiat varius. Curabitur elit augue, semper vel arcu sed, tristique congue dolor. Etiam id lorem eu quam sagittis vehicula ac eget ex. In congue aliquam urna, scelerisque suscipit sem.</p>
+            <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In venenatis ante sem, in egestas neque mattis in. Integer eu augue nisi. Nulla facilisi. Cras sit amet leo nec purus feugiat varius. In venenatis ante sem, in egestas neque mattis in. Integer eu augue nisi. Nulla facilisi. Cras sit amet leo nec purus feugiat varius. In venenatis ante sem, in egestas neque mattis in. Integer eu augue nisi. Nulla facilisi. Cras sit amet leo nec purus feugiat varius. Curabitur elit augue, semper vel arcu sed, tristique congue dolor. Etiam id lorem eu quam sagittis vehicula ac eget ex. In congue aliquam urna, scelerisque suscipit sem.</p>
             </div>           
             <figure class="project-imageContainer">
             <img src="imagenes/platzi-video-react-native.png" alt="proyectos" width="500" class="project-image">
             </figure>
         </article>
     </section>
+
     <section  class="portfolio">
-        <h2>Portafolio de proyectos destacados</h2>
         <article class="proyecto">
             <div class="proyect-details">
             <h3 class="project-title">Platzi videos</h3>
             <h6 class="project-course">React Native / React</h6>
             <p class="project-date"><small><strong>Fecha:</strong>  01/07/2019</small></p>
             <p class="project-url"><small><strong>Puedes verlo en:</strong>www.estiventhneira.com</small></p>
-            <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In venenatis ante sem, in egestas neque mattis in. Integer eu augue nisi. Nulla facilisi. Cras sit amet leo nec purus feugiat varius. Curabitur elit augue, semper vel arcu sed, tristique congue dolor. Etiam id lorem eu quam sagittis vehicula ac eget ex. In congue aliquam urna, scelerisque suscipit sem.</p>
+            <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In venenatis ante sem, in egestas neque mattis in. Integer eu augue nisi. Nulla facilisi. Cras sit amet leo nec purus feugiat varius. In venenatis ante sem, in egestas neque mattis in. Integer eu augue nisi. Nulla facilisi. Cras sit amet leo nec purus feugiat varius. In venenatis ante sem, in egestas neque mattis in. Integer eu augue nisi. Nulla facilisi. Cras sit amet leo nec purus feugiat varius.  Curabitur elit augue, semper vel arcu sed, tristique congue dolor. Etiam id lorem eu quam sagittis vehicula ac eget ex. In congue aliquam urna, scelerisque suscipit sem.</p>
             </div>           
             <figure class="project-imageContainer">
             <img src="imagenes/platzi-video-react-native.png" alt="proyectos" width="500" class="project-image">
             </figure>
         </article>
     </section>
-    <section id="Experiencia">
-        <h2>Más sobre mi experiencia</h2>
+</div>
+
+
+     <h2 class="mas-experiencia"><strong>Más sobre mi experiencia</strong> </h2>
+
+        <section class="eventos33">
+            <div class="wrapper"></div>
         <article class="event">
-            <figure class="event-imageContainer">
-                <img class="event-image" src="imagenes/platzi-conf.jpg" alt="hero estiventhneira" width="500">
-            </figure>
-            <h3 class="event-title">Tedx Conf Cucuta</h3>
+                <img class="event-image" src="imagenes/platzi-conf.jpg" alt="hero estiventhneira" width="500"> 
+                <div class="detalles-del-evento">
+            <h3 class="event-description1">Tedx Conf Cucuta</h3>
             <p class="event-description">Phasellus consectetur tempor risus, quis accumsan neque suscipit tincidunt. In purus sapien, ullamcorper vel velit nec, luctus rutrum purus. Aliquam euismod aliquet sapien, vitae pulvinar purus facilisis eget. Vivamus et quam dignissim, accumsan est in, vulputate arcu.</p>
             <a class="event-url" href="https://www.youtube.com/watch?v=LKtJpSRse6s" target="_blank"> Ver Conferencia aquí</a>
+        </div>
         </article>
-    </section>
-    <section id="Contacto" class="contact">
+
+            <article class="event">
+                    <img class="event-image" src="imagenes/platzi-conf.jpg" alt="hero estiventhneira" width="500"> 
+                    <div class="detalles-del-evento">
+                <h3 class="event-description1">Tedx Conf Cucuta</h3>
+                <p class="event-description">Phasellus consectetur tempor risus, quis accumsan neque suscipit tincidunt. In purus sapien, ullamcorper vel velit nec, luctus rutrum purus. Aliquam euismod aliquet sapien, vitae pulvinar purus facilisis eget. Vivamus et quam dignissim, accumsan est in, vulputate arcu.</p>
+                <a class="event-url" href="https://www.youtube.com/watch?v=LKtJpSRse6s" target="_blank"> Ver Conferencia aquí</a>
+            </div>
+            </article>
+
+
+                <article class="event">
+                        <img class="event-image" src="imagenes/platzi-conf.jpg" alt="hero estiventhneira" width="500"> 
+                        <div class="detalles-del-evento">
+                    <h3 class="event-description1">Tedx Conf Cucuta</h3>
+                    <p class="event-description">Phasellus consectetur tempor risus, quis accumsan neque suscipit tincidunt. In purus sapien, ullamcorper vel velit nec, luctus rutrum purus. Aliquam euismod aliquet sapien, vitae pulvinar purus facilisis eget. Vivamus et quam dignissim, accumsan est in, vulputate arcu.</p>
+                    <a class="event-url" href="https://www.youtube.com/watch?v=LKtJpSRse6s" target="_blank"> Ver Conferencia aquí</a>
+                </div>
+                </article>
+
+
+
+                    <article class="event">
+                            <img class="event-image" src="imagenes/platzi-conf.jpg" alt="hero estiventhneira" width="500"> 
+                            <div class="detalles-del-evento">
+                        <h3 class="event-description1">Tedx Conf Cucuta</h3>
+                        <p class="event-description">Phasellus consectetur tempor risus, quis accumsan neque suscipit tincidunt. In purus sapien, ullamcorper vel velit nec, luctus rutrum purus. Aliquam euismod aliquet sapien, vitae pulvinar purus facilisis eget. Vivamus et quam dignissim, accumsan est in, vulputate arcu.</p>
+                        <a class="event-url" href="https://www.youtube.com/watch?v=LKtJpSRse6s" target="_blank"> Ver Conferencia aquí</a>
+                    </div>
+                    </article>
+                </section>
+            </div>
+
+            
+    <section class="contact">
+        <div class="wrapper"> 
         <form action="/suscripcion/" class="form-email">
         <h3>Creemos algo juntos</h3>
-        <input type="email" placeholder="Déjanos tu Email" id="poner Email">
-        <button>Enviar</button>
+        <input type="email" placeholder="Déjanos tu Email" class="poner-email">
+        <button class="contact-buttom">Enviar</button>
         </form>
+        <div class="social">
+            <a href="https://twitter.com/leonidasesteban" class="social-link twitter"></a>
+            <a href="https://facebook.com/estiventh.neira" class="social-link facebook"></a>
+            <a href="https://github.com/estiventhneira" class="social-link github"></a>
+            <a href="https://instagram.com/estiventhneira" class="social-link instagram"></a>
+        </div>
     </section>
+</div>
+
+
+
+    <footer class="footer">
+        <div class="wrapper">
+        <div class="platzi">
+            <p>Hecho con amor para el curso de Desarrollo Web Online <img width="80" src="imagenes/platzi.png" alt="Platzi"></p>
+        </div>
+        <div class="creditos">
+            Diseñado por el increíble <a href="https://www.twitter.com/thespianartist">@pianartist</a>
+        </div>
+    </div>
+    </footer>
 </body>
 </html>

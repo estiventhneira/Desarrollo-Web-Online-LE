@@ -22,29 +22,45 @@ h1 {
     line-height: 1.5em;
     font-size: 40px;
     margin-top: 0;
-    margin-right: 500px;
 
 }
+
+.divisor-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ol {
+    list-style: none;
+    display: flex;
+    
+}
+
+
 
 ol {
     margin-bottom: 0;
+    padding: 10px;
 }
 
-.project-description{
-    width: 500px;
-
+ol li {
+    padding: 10px;
 }
 
 
 .hero {
     height: 300px;
-    background-image: url(../imagenes/hero.jpg);
-    background-size: 500px;
-    background-repeat: no-repeat;
-    background-position: right;
     background-color: #1D252C;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
+}
+
+.hero-img {
+    height: inherit;
+    object-fit: cover;
 }
 
 .hero strong{
@@ -54,36 +70,251 @@ ol {
 .header {
     background-color: #1D252C;
     color: white;
+    height: 90px;
+}
+
+.menu{
+    height: inherit;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+
+}
+
+.header ol li {
+    height: inherit;
+
+}
+
+.header a{
+    display: flex;
+    align-items: center;
+    display: block;
+    height: inherit;
 }
 
 .header div nav ol li a {
+    display: flex;
     color: white;
     text-decoration: none;
+    height: inherit;
 }
 
 .portfolio {
-    margin-top: 10px;
     border: 1px gray solid;
     border-radius: 10px;
-    margin: 20px;
+    margin: 0px 20px 20px 20px;
+    padding: 20px;
+}
+
+h2 strong {
+    color: #026fff;
+    text-transform: uppercase;
+    font-size: 24px;
     padding: 20px;
 }
 
 
 h2 {
     margin: 0;
+    padding: 20px;
 }
 
 .proyecto{
     display: flex;
 }
 
-.flexbox {
-    display: flex;
+h1{
+    margin-left: 40px;
 }
 
-.box{
-    width: 300px;
-    height: 300px;
-    border: black 1px solid;
+.footer{
+    background-color: #1D252C;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.footer p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+ h2{
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+}
+
+.project-title {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 14px;
+
+}
+
+.project-date,
+.project-url,
+.project-description{
+    margin: 7px 0px;
+}
+
+.project-course {
+    margin: 7px 0px;
+    font-size: 20px;
+}
+
+.proyecto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.event img {
+    width: 480px;
+    height: 250px;
+    object-fit: cover;
+}
+.event {
+    width: 480px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: royalblue;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+
+.event-description,
+.event-url {
+    margin: 20px;
+    margin-bottom: 20px;
+    background-color: seashell;
+}
+
+.eventos-division {
+    display: flex;
+   flex-wrap: wrap;
+   flex-shrink: 0;
+}
+
+
+.detalles-del-evento {
+    background-color: seashell;
+    width: 440px;
+    margin-left: 20px;
+    margin-top: -40px;
+    position: relative;
+    padding: 1px 0px;
+    text-align: center;
+    padding-bottom: 30px;
+    border-radius: 7px;
+}
+
+.event-description{
+    text-align: left;
+}
+.event-url {
+    text-decoration: none;
+    color: slateblue;
+    border: 1px slateblue solid;
+    border-radius: 7px;
+    padding: 10px 20px;
+}
+
+.eventos33 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: lavender;
+}
+
+
+.contact {
+    background-color: #4169E1;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-link{   
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-size: 50px 50px;
+    margin: 10px;
+}
+
+.social-link.twitter{
+    background-image: url(../imagenes/twitter.svg);
+}
+
+.social-link.facebook{
+    background-image: url(../imagenes/facebook.svg);
+}
+
+.social-link.github{
+    background-image: url(../imagenes/github.svg);
+}
+
+.social-link.instagram{
+    background-image: url(../imagenes/instagram.svg);
+}
+
+.poner-email {
+    border-radius: 5px;
+    border-color: gray;
+    border-style: solid;
+    padding: 5px 20px 5px 35px;
+    background-image: url(../imagenes/envelope.svg);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.contact-buttom {
+    color: white;
+    display: block;
+    background: transparent;
+    margin-top: 10px;
+    padding: 3px 11px;
+    border-radius: 4px;
+}
+
+.form-email h3 {
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+
+}
+
+
+.wrapper {
+    width: 1200px;
+    height: inherit;
+    margin: 0 auto;
+    background-color: inherit;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+}
+
+
+.mas-experiencia {
+    margin-left: 50px;
+
 }
