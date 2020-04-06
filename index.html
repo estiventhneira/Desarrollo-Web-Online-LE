@@ -2,46 +2,38 @@
 <html lang="es">
 <head>
     <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Estiventh Neira</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
     <link rel="icon" href="imagenes/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    
+    <i class="icon-menu burguer-menu"></i>
     <header class="header">
-        <div class="wrapper">
-        <div class="divisor-header">
-            <figure class="logo">
-                <img src="imagenes/logo.png" alt="Logo de Estiventh Neira">
-            </figure>
-        <nav class="menu">
-            <ol>
-                <li>
-                    <a href="#Portafolio">Portafolio</a>
-                </li>
-                <li>
-                    <a href="#Experiencia">Eventos</a>
-                </li>
-                <li class="contacto">
-                    <a href="#Contacto">Contacto</a>
-                </li>
-            </ol>
-        </nav>
-    </div>
+            <div class="divisor-header">
+                <figure class="logo">
+                    <img src="imagenes/logo.png" alt="Logo de Estiventh Neira">
+                </figure>
+            <nav class="menu ">
+                <ol>
+                    <li>
+                        <a href="#Portafolio">Portafolio</a>
+                    </li>
+                    <li>
+                        <a href="#Experiencia">Eventos</a>
+                    </li>
+                    <li class="contacto">
+                        <a href="#Contacto">Contacto</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
     </header>
     <section class="hero">
-        <div class="wrapper">
         <h1>Hola soy <strong>Estiventh Neira,</strong>  <br> <strong>Frontend Developer</strong> <br> Con pasión por el <strong>Marketing</strong>  </h1>
-         <img class="hero-img" alt="hero Estiventh Neira" src="imagenes/hero.jpg" width="500px">
-    </div>
+         <img class="hero-img" alt="hero Estiventh Neira" src="imagenes/hero.jpg">
     </section>
-    <div class="wrapper">
     <h2> <strong>Portafolio de proyectos destacados</strong> </h2>
     <section id="Portafolio" class="portfolio">     
         <article class="proyecto">
@@ -52,9 +44,7 @@
             <p class="project-url"><small><strong>Puedes verlo en:</strong>www.estiventhneira.com</small></p>
             <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In venenatis ante sem, in egestas neque mattis in. Integer eu augue nisi. Nulla facilisi. Cras sit amet leo nec purus feugiat varius. In venenatis ante sem, in egestas neque mattis in. Integer eu augue nisi. Nulla facilisi. Cras sit amet leo nec purus feugiat varius. In venenatis ante sem, in egestas neque mattis in. Integer eu augue nisi. Nulla facilisi. Cras sit amet leo nec purus feugiat varius. Curabitur elit augue, semper vel arcu sed, tristique congue dolor. Etiam id lorem eu quam sagittis vehicula ac eget ex. In congue aliquam urna, scelerisque suscipit sem.</p>
             </div>           
-            <figure class="project-imageContainer">
-            <img src="imagenes/platzi-video-react-native.png" alt="proyectos" width="500" class="project-image">
-            </figure>
+            <img src="imagenes/platzi-video-react-native.png" alt="proyectos" class="project-image">
         </article>
     </section>
 
@@ -67,18 +57,15 @@
             <p class="project-url"><small><strong>Puedes verlo en:</strong>www.estiventhneira.com</small></p>
             <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In venenatis ante sem, in egestas neque mattis in. Integer eu augue nisi. Nulla facilisi. Cras sit amet leo nec purus feugiat varius. In venenatis ante sem, in egestas neque mattis in. Integer eu augue nisi. Nulla facilisi. Cras sit amet leo nec purus feugiat varius. In venenatis ante sem, in egestas neque mattis in. Integer eu augue nisi. Nulla facilisi. Cras sit amet leo nec purus feugiat varius.  Curabitur elit augue, semper vel arcu sed, tristique congue dolor. Etiam id lorem eu quam sagittis vehicula ac eget ex. In congue aliquam urna, scelerisque suscipit sem.</p>
             </div>           
-            <figure class="project-imageContainer">
             <img src="imagenes/platzi-video-react-native.png" alt="proyectos" width="500" class="project-image">
-            </figure>
         </article>
     </section>
 </div>
 
 
-     <h2 class="mas-experiencia"><strong>Más sobre mi experiencia</strong> </h2>
+      <h2 class="mas-experiencia"><strong>Más sobre mi experiencia</strong> </h2>
 
         <section class="eventos33">
-            <div class="wrapper"></div>
         <article class="event">
                 <img class="event-image" src="imagenes/platzi-conf.jpg" alt="hero estiventhneira" width="500"> 
                 <div class="detalles-del-evento">
@@ -99,7 +86,9 @@
 
 
                 <article class="event">
-                        <img class="event-image" src="imagenes/platzi-conf.jpg" alt="hero estiventhneira" width="500"> 
+                    <div class="video-youtube-container">
+                        <iframe class="video-youtube" width="560" height="315" src="https://www.youtube.com/embed/3WEcw3sGIq0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div> 
                         <div class="detalles-del-evento">
                     <h3 class="event-description1">Tedx Conf Cucuta</h3>
                     <p class="event-description">Phasellus consectetur tempor risus, quis accumsan neque suscipit tincidunt. In purus sapien, ullamcorper vel velit nec, luctus rutrum purus. Aliquam euismod aliquet sapien, vitae pulvinar purus facilisis eget. Vivamus et quam dignissim, accumsan est in, vulputate arcu.</p>
@@ -122,7 +111,7 @@
 
             
     <section class="contact">
-        <div class="wrapper"> 
+        
         <form action="/suscripcion/" class="form-email">
         <h3>Creemos algo juntos</h3>
         <input type="email" placeholder="Déjanos tu Email" class="poner-email">
@@ -135,19 +124,41 @@
             <a href="https://instagram.com/estiventhneira" class="social-link instagram"></a>
         </div>
     </section>
-</div>
 
 
 
     <footer class="footer">
-        <div class="wrapper">
         <div class="platzi">
             <p>Hecho con amor para el curso de Desarrollo Web Online <img width="80" src="imagenes/platzi.png" alt="Platzi"></p>
         </div>
         <div class="creditos">
             Diseñado por el increíble <a href="https://www.twitter.com/thespianartist">@pianartist</a>
         </div>
-    </div>
-    </footer>
+    </footer> 
+    <script>
+        const menu = document.querySelector(".menu")
+        const boton = document.querySelector(".burguer-menu")
+        const ipad = window.matchMedia("screen and (max-width: 767px)")
+        boton.addEventListener("click", mostrar)
+        function mostrar () {
+            if (menu.classList.contains("is-active")) {
+                menu.classList.remove("is-active")
+            } else{
+                menu.classList.add("is-active")
+            }
+            
+        }
+
+        ipad.addListener(validation)
+        
+        function validation(event) {
+
+            if (event.matches) {
+                boton.removeEventListener("click")
+            } else
+            boton.addEventListener("click", mostrar)
+        }
+  
+    </script>
 </body>
 </html>
